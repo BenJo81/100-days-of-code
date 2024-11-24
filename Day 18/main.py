@@ -16,9 +16,9 @@ go = True
 
 while go:
     screen.colormode(255)
-    color_1 = random.randint(1, 255)
-    color_2 = random.randint(1, 255)
-    color_3 = random.randint(1, 255)
+    color_1 = random.randint(0, 255)
+    color_2 = random.randint(0, 255)
+    color_3 = random.randint(0, 255)
     tim.pencolor(color_1, color_2, color_3)
     tim.pensize(15)
     tim.speed(10)
