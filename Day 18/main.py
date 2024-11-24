@@ -21,9 +21,9 @@ while go < 360:
     color_3 = random.randint(0, 255)
     tim.pencolor(color_1, color_2, color_3)
     tim.circle(100)
-    tim.right(10)
+    tim.right(5)
     tim.speed("fastest")
-    go += 10
+    go += 5
 
 
 
